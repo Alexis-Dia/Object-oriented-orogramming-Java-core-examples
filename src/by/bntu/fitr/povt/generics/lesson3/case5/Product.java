@@ -1,6 +1,6 @@
-package by.bntu.fitr.povt.generics.lesson3.case3;
+package by.bntu.fitr.povt.generics.lesson3.case5;
 
-public class Product<T> implements Comparable<Product>{
+public class Product<T extends Product> implements Comparable<T>{
 
     private String name = "name";
 
@@ -13,7 +13,7 @@ public class Product<T> implements Comparable<Product>{
     }
 
     @Override
-    public int compareTo(Product o) {
+    public int compareTo(T o) {
         return 0;
     }
 }
