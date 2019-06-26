@@ -1,4 +1,4 @@
-package by.bntu.fitr.povt.generics.lesson3.case1;
+package by.bntu.fitr.povt.generics.lesson3.case2;
 
 public class Main {
 
@@ -15,6 +15,9 @@ public class Main {
         //product1.compareTo(product2);
         //product1.compareTo(phone1);
         camera1.subCompare(phone1);
+
+        phone1.compareTo(camera1);
+        phone1.subCompare(camera1);
 
     }
 }
