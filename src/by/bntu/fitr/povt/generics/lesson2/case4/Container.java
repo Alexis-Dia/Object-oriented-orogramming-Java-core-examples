@@ -1,8 +1,8 @@
 package by.bntu.fitr.povt.generics.lesson2.case4;
 
-import lesson2.case4.interfaces.B;
-import lesson2.case4.interfaces.C;
-import lesson2.case4.interfaces.D;
+import by.bntu.fitr.povt.generics.lesson2.case4.interfaces.B;
+import by.bntu.fitr.povt.generics.lesson2.case4.interfaces.C;
+import by.bntu.fitr.povt.generics.lesson2.case4.interfaces.D;
 
 public class Container<T extends Product & B & C & D> {
 

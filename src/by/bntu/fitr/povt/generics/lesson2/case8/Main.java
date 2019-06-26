@@ -16,6 +16,8 @@ public class Main {
         List<Product> product2 = new ArrayList();
         List<Phone> phone1 = new ArrayList();
         List<Phone> phone2 = new ArrayList();
+        List<Camera> camera1 = new ArrayList();
+        List<Object> object1 = new ArrayList();
         copy(product1, product2);
         //copy(phone1, phone2);
         //copy(product1, phone1);
