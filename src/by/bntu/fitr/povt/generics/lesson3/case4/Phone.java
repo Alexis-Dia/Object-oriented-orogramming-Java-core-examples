@@ -1,4 +1,4 @@
-package by.bntu.fitr.povt.generics.lesson3.case3;
+package by.bntu.fitr.povt.generics.lesson3.case4;
 
 public class Phone extends Product<Phone> {
 
