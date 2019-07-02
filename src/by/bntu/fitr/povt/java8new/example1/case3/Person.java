@@ -1,6 +1,4 @@
-package by.bntu.fitr.povt.java8new.example1.case2;
-
-import by.bntu.fitr.povt.java8new.example1.case3.PersonAddress;
+package by.bntu.fitr.povt.java8new.example1.case3;
 
 import java.util.Optional;
 
@@ -45,6 +43,4 @@ public class Person {
     public void setAddress(PersonAddress address) {
         this.address = Optional.of(address);
     }
-
-
 }

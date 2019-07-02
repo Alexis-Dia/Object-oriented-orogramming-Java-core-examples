@@ -26,5 +26,23 @@ public class Test {
         } else {
             System.out.println("Person not found!");
         }
+
+/*        Person person = new Person();
+        if (person != null) {
+            PersonAddress personAddress = person.getAddress();
+            if (personAddress != null) {
+                PersonAddressStreet street = personAddress.getStreet();
+                if(street != null) {
+                    streetName = street.getStreetName();
+                } else {
+                    streetName = "EMPTY";
+                }
+            }
+        }
+
+        String streetName = person.flatMap(Person::getAddress)
+                .flatMap(PersonAddress::getStreet)
+                .map(PersonAddressStreet::getStreetName)
+                .orElse("EMPTY");*/
     }
 }
