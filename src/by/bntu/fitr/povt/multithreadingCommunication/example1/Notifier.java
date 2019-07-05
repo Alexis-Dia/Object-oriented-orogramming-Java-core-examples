@@ -3,11 +3,14 @@ package by.bntu.fitr.povt.multithreadingCommunication.example1;
 public class Notifier implements Runnable {
  
     private Message msg;
-     
+    private Thread thread;
+
     Message m = new Message("d");
     
     public Notifier(Message msg) {
         this.msg = msg;
+        thread = new Thread(this, "notifier");
+        thread.start();
     }
  
     @Override

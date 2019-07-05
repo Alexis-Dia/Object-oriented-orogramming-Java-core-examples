@@ -3,11 +3,13 @@ package by.bntu.fitr.povt.multithreadingCommunication.example1;
 public class Waiter implements Runnable{
      
     private Message msg;
-    
+    private Thread thread;
    
      
     public Waiter(Message m){
         this.msg = m;
+        thread = new Thread(this, "waiter");
+        thread.start();
     }
  
     @Override
