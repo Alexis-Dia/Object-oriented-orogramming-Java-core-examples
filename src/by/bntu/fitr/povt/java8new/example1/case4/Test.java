@@ -9,4 +9,7 @@ public class Test {
     Formula formula1 = (a) -> Integer.valueOf(a);
     Formula formula2 = Integer::valueOf;
 
+    Something something = new Something();
+    Formula formula3 = something::startsWith;
+
 }
