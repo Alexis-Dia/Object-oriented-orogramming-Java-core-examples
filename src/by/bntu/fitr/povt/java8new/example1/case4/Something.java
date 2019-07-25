@@ -5,6 +5,10 @@ class Something {
         return 1.0;
     }
 
+    public static double startsWithStatic(int i) {
+        return 1.0;
+    }
+
 /*    public double startsWith(int i) {
     }*/
 }
