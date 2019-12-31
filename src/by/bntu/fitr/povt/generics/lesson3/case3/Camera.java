@@ -2,13 +2,19 @@ package by.bntu.fitr.povt.generics.lesson3.case3;
 
 public class Camera extends Product<Camera> {
 
-    Integer pixels = 1024;
+    private Integer pixels = 1024;
 
-    public Integer getPixels() {
+    private Integer getPixels() {
         return pixels;
     }
 
-    public void setPixels(Integer pixels) {
-        this.pixels = pixels;
+    public int subCompare(Camera o) {
+        if (this.pixels > o.getPixels()) {
+            return 1;
+        } else if (this.pixels < o.getPixels()) {
+            return -1;
+        } else {
+            return 0;
+        }
     }
 }

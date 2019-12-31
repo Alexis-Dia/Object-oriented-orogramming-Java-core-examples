@@ -1,6 +1,6 @@
 package by.bntu.fitr.povt.generics.lesson3.case2;
 
-public class Camera extends Product<Camera> {
+public class Camera extends Product {
 
     private Integer pixels = 1024;
 
@@ -12,7 +12,13 @@ public class Camera extends Product<Camera> {
         this.pixels = pixels;
     }
 
-    public int subCompare(Camera o) {
-        return 0;
+    public int subCompare(Product o) {
+        if (this.pixels > ((Camera) o).getPixels()) {
+            return 1;
+        } else if (this.pixels < ((Camera) o).getPixels()) {
+            return -1;
+        } else {
+            return 0;
+        }
     }
 }

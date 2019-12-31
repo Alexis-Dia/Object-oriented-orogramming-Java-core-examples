@@ -14,7 +14,13 @@ public class Phone extends Product {
 
     public int subCompare(Product o) {
         if (o instanceof Phone) {
-            return 0;
+            if (this.diagonal == ((Phone) o).getDiagonal()) {
+                return 0;
+            } else if (this.diagonal < ((Phone) o).getDiagonal()) {
+                return -1;
+            } else {
+                return 1;
+            }
         }
         return 0;
     }

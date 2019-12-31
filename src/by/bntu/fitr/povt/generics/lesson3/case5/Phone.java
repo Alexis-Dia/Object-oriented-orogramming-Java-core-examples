@@ -12,4 +12,14 @@ public class Phone extends Product<Phone> {
         this.diagonal = diagonal;
     }
 
+    @Override
+    public int subCompare(Phone p) {
+        if (this.diagonal == p.getDiagonal()) {
+            return 0;
+        } else if (this.diagonal < p.getDiagonal()) {
+            return -1;
+        } else {
+            return 1;
+        }
+    }
 }

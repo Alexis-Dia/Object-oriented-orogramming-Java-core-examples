@@ -11,13 +11,17 @@ public class Main {
         //Product product1 = new Product();
         //Product product2 = new Product();
 
-        camera1.compareTo(phone1);
+        final int i = camera1.compareTo(phone1);
         //product1.compareTo(product2);
         //product1.compareTo(phone1);
         camera1.subCompare(phone1);
 
-        phone1.compareTo(camera1);
+        final int i1 = phone1.compareTo(camera1);
         phone1.subCompare(camera1);
+        phone2.subCompare(camera2);
+
+        System.out.println(i);
+        System.out.println(i1);
 
     }
 }

@@ -27,12 +27,13 @@ public abstract class Product implements Comparable<Product>{
 
     @Override
     public int compareTo(Product o) {
-        if (this.price == o.getPrice()) {
-            return 0;
+        if (this.price > o.getPrice()) {
+            return 1;
         } else if (this.price < o.getPrice()) {
             return -1;
         } else {
-            return 1;
+            subCompare(o);
+            return 0;
         }
     }
 }

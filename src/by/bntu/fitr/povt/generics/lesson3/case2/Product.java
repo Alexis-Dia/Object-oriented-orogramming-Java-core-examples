@@ -1,6 +1,6 @@
 package by.bntu.fitr.povt.generics.lesson3.case2;
 
-public abstract class Product<T> implements Comparable<Product>{
+public abstract class Product implements Comparable<Product>{
 
     private int price;
 
@@ -12,7 +12,7 @@ public abstract class Product<T> implements Comparable<Product>{
         this.price = price;
     }
 
-    public abstract int subCompare(T p);
+    public abstract int subCompare(Product p);
 
 /*    @Override
     public int compareTo(T o) {
@@ -27,12 +27,13 @@ public abstract class Product<T> implements Comparable<Product>{
 
     @Override
     public int compareTo(Product o) {
-        if (this.price == o.getPrice()) {
-            return 0;
+        if (this.price > o.getPrice()) {
+            return 1;
         } else if (this.price < o.getPrice()) {
             return -1;
         } else {
-            return 1;
+            subCompare(o);
+            return 0;
         }
     }
 }

@@ -11,4 +11,15 @@ public class Camera extends Product<Camera> {
     public void setPixels(Integer pixels) {
         this.pixels = pixels;
     }
+
+    @Override
+    public int subCompare(Camera p) {
+        if (this.pixels > p.getPixels()) {
+            return 1;
+        } else if (this.pixels < p.getPixels()) {
+            return -1;
+        } else {
+            return 0;
+        }
+    }
 }
