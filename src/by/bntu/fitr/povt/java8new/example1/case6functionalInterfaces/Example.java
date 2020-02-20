@@ -2,6 +2,8 @@ package by.bntu.fitr.povt.java8new.example1.case6functionalInterfaces;
 
 public class Example{
     private static void printTest(Car car, CheckCar check){
+        check.test4();
+        //check.test5();   //не можем так сделать
         if(check.test(car)){
             System.out.println(car);
         }
