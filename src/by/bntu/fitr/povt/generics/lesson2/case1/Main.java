@@ -1,10 +1,12 @@
 package by.bntu.fitr.povt.generics.lesson2.case1;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 
+/*
+    !!!TO DO: Check example from official Oracle docs:https://docs.oracle.com/javase/tutorial/java/generics/bounded.html
+ */
 public class Main {
 
     public static void print(Collection<String> collection) {

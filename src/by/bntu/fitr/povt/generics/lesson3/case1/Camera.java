@@ -14,7 +14,13 @@ public class Camera extends Product {
 
     public int subCompare(Product o) {
         if (o instanceof Camera) {
-            return 0;
+            if (this.pixels > ((Camera) o).getPixels()) {
+                return 1;
+            } else if (this.pixels < ((Camera) o).getPixels()) {
+                return -1;
+            } else {
+                return 0;
+            }
         }
         return 0;
     }

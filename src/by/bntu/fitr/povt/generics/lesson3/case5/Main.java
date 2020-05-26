@@ -12,6 +12,7 @@ public class Main {
         Product product2 = new Product();
 
         camera1.compareTo(camera2);
+        phone1.compareTo(phone2);
         product1.compareTo(product2);
         camera1.compareTo(phone1);
 

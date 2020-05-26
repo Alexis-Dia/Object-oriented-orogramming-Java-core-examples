@@ -4,6 +4,12 @@ Java patterns:
 3. https://github.com/synergytrainings18/patterns/tree/master/Tatevik.Arakelyan
 4. https://github.com/chacovi/design-patterns-head-first-book/
 
+Java 8 features:
+1. https://habr.com/en/post/224593/
+2. https://habr.com/en/company/luxoft/blog/270383/
+3. https://habr.com/en/post/216431/
+
+
 It't readme file.
 1.
 2.
