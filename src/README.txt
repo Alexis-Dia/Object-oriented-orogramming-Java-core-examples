@@ -9,6 +9,9 @@ Java 8 features:
 2. https://habr.com/en/company/luxoft/blog/270383/
 3. https://habr.com/en/post/216431/
 
+Graph tutorials:
+part1 - https://www.youtube.com/watch?v=rwjtcJSNpBs
+part2 - https://www.youtube.com/watch?v=pcicxEjCPZY
 
 It't readme file.
 1.
