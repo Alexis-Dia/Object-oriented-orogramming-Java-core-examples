@@ -53,7 +53,8 @@ public class Lab1 {
                     if (i_decrypt >= 0) {
                         if (i_decrypt % k1 == 0) {
                             i_decrypt /= k1;
-                            text_out += (char)(i_decrypt + 65);
+                            char letter = (char)(i_decrypt + 65);
+                            text_out += letter;
                             break;
                         } else {
                             div += 1;
