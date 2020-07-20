@@ -5,6 +5,7 @@ package by.bntu.fitr.povt.java8new.example1.case4;
  * https://habr.com/en/post/216431/
  * For compiling:
  * javac -d E:\IdeadProjects\helloWorldProj\Object-oriented-orogramming-Java-core-examples\src\by\bntu\fitr\povt\java8new\example1\case4\out -sourcepath E:\IdeadProjects\helloWorldProj\Object-oriented-orogramming-Java-core-examples\src E:\IdeadProjects\helloWorldProj\Object-oriented-orogramming-Java-core-examples\src\by\bntu\fitr\povt\java8new\example1\case4\Test.java
+ *
  */
 public class Test {
 
@@ -63,6 +64,12 @@ public class Test {
         double d2 = formula2.calculate(1);
         double d3 = formula3.calculate(1);
         double d4 = formula4.calculate(1);
+
+        System.out.println("d1 = " + d1);
+        System.out.println("d2 = " + d2);
+        System.out.println("d3 = " + d3);
+        System.out.println("d4 = " + d4);
+
     }
 
 
