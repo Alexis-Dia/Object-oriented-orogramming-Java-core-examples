@@ -2,6 +2,7 @@ package by.bntu.fitr.povt.java8new.example1.case4;
 
 /**
  * Exmples from:
+ * https://javarush.ru/groups/posts/1946-neizmennoe-v-java-final-konstantih-i-immutable
  * https://habr.com/en/post/216431/
  * For compiling:
  * javac -d E:\IdeadProjects\helloWorldProj\Object-oriented-orogramming-Java-core-examples\src\by\bntu\fitr\povt\java8new\example1\case4\out -sourcepath E:\IdeadProjects\helloWorldProj\Object-oriented-orogramming-Java-core-examples\src E:\IdeadProjects\helloWorldProj\Object-oriented-orogramming-Java-core-examples\src\by\bntu\fitr\povt\java8new\example1\case4\Test.java
