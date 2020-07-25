@@ -13,8 +13,10 @@ public class Test {
 
         System.out.println(collection2);
         for(StringBuilder element: collection2) {
-            //element.append("_");
-            element = new StringBuilder("v");
+            /*For some reason, I don't know why, but this line will update collection2:*/
+            element.append("_");
+            /*For some reason, I don't know why, but this line won't update collection2:*/
+            //element = new StringBuilder("v");
         }
         System.out.println(collection2);
         for(StringBuilder element: collection2) {
