@@ -1,4 +1,4 @@
-package by.bntu.fitr.povt.javaNew.jdk8.example1.case3;
+package by.bntu.fitr.povt.javaNew.jdk8.case3;
 
 public class Test {
 

@@ -1,4 +1,4 @@
-package by.bntu.fitr.povt.javaNew.jdk8.example1.case6functionalInterfaces;
+package by.bntu.fitr.povt.javaNew.jdk8.case6functionalInterfaces;
 
 public class Example{
     private static void printTest(Car car, CheckCar check){

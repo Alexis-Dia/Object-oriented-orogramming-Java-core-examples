@@ -1,6 +1,6 @@
-package by.bntu.fitr.povt.javaNew.jdk8.example1.case2;
+package by.bntu.fitr.povt.javaNew.jdk8.case2;
 
-import by.bntu.fitr.povt.javaNew.jdk8.example1.case3.PersonAddress;
+import by.bntu.fitr.povt.javaNew.jdk8.case3.PersonAddress;
 
 import java.util.Optional;
 

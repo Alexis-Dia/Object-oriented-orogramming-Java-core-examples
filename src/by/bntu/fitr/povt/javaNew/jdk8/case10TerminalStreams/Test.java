@@ -1,4 +1,4 @@
-package by.bntu.fitr.povt.javaNew.jdk8.example1.case10TerminalStreams;
+package by.bntu.fitr.povt.javaNew.jdk8.case10TerminalStreams;
 
 import java.util.Arrays;
 import java.util.Collection;

@@ -1,4 +1,4 @@
-package by.bntu.fitr.povt.javaNew.jdk8.example1.case9ConveyorStreams;
+package by.bntu.fitr.povt.javaNew.jdk8.case9ConveyorStreams;
 
 /**
  * @author Alexey Druzik on 25.07.2020

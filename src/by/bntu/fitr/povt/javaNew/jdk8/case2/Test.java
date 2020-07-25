@@ -1,4 +1,4 @@
-package by.bntu.fitr.povt.javaNew.jdk8.example1.case2;
+package by.bntu.fitr.povt.javaNew.jdk8.case2;
 
 import java.util.Optional;
 

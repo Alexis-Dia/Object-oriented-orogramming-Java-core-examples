@@ -1,4 +1,4 @@
-package by.bntu.fitr.povt.javaNew.jdk8.example1.case7;
+package by.bntu.fitr.povt.javaNew.jdk8.case5;
 
 import java.util.ArrayList;
 import java.util.List;
