@@ -32,5 +32,19 @@ public class Test {
                 c = 'a';
         }
         System.out.println(new String(array)); //
+
+        Collection<People> collection3 = Arrays.asList(
+            new People("Alex", 21),
+            new People("Bob", 31),
+            new People("Henry", 41)
+        );
+        for(People element: collection3) {
+            if (element.name == "Henry") {
+                element.setAge(51);
+            }
+        }
+        for(People element: collection3) {
+            System.out.println(element);
+        }
     }
 }
