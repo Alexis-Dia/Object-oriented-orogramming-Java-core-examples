@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 public class Test {
     public static void main(String[] args) {
 
-        Predicate<Item> isQualified = item -> item.isQualified();
+        Predicate<Item> isQualified = item -> item.isQualified(item);
         List<Item> itemList = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
             itemList.add(new Item(i));

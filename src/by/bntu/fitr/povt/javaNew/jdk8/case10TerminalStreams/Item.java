@@ -16,6 +16,14 @@ class Item {
         return value % 2 == 0;
     }
 
+    public boolean isQualified(Item value) {
+        return value.getValue() == 2;
+    }
+
+    public int getValue() {
+        return value;
+    }
+
     public void operate() {
         System.out.println("Even Number");
     }
