@@ -11,3 +11,6 @@
 # Running jar:
 # java -jar Java8new-case4-labmdas.jar
 
+# Exmples from:
+# https://javarush.ru/groups/posts/1946-neizmennoe-v-java-final-konstantih-i-immutable
+# https://habr.com/en/post/216431/
