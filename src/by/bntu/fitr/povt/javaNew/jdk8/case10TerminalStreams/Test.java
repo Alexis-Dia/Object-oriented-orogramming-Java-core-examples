@@ -1,36 +1,44 @@
 package by.bntu.fitr.povt.javaNew.jdk8.case10TerminalStreams;
 
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
+import java.util.List;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 /**
  * @author Alexey Druzik on 25.07.2020
  */
 public class Test {
     public static void main(String[] args) {
-        Collection<String> collection1 = Arrays.asList("s1", "s2", "s3");
-        Collection<StringBuilder> collection2 = Arrays.asList(new StringBuilder("s1"), new StringBuilder("s2"), new StringBuilder("s3"));
 
-        for (String element: collection1) {
-            element.toUpperCase();
+        Predicate<Item> isQualified = item -> item.isQualified();
+        List<Item> itemList = new ArrayList<>();
+        for (int i = 0; i < 10; i++) {
+            itemList.add(new Item(i));
         }
-        for (String element: collection1) {
-            System.out.println("element = " + element);
-        }
+        //itemList.stream()
+            //.filter(isQualified);
+            //.collect(Collectors.toList());
+        itemList.removeIf(isQualified);
 
-        for (StringBuilder element: collection2) {
-            element.append("_");
-        }
-        for (StringBuilder element: collection2) {
-            System.out.println("element = " + element);
+        for(Item item: itemList) {
+            System.out.println(item);
         }
 
-        String str1 = "I love Java";
+        List<String> collection = Arrays.asList("a1", "a2", "a3", "a1");
+        List<String> collection2 = collection.stream().filter((s) -> s.contains("1")).collect(Collectors.toList());
+        collection2.stream().forEach(element -> System.out.println(element));
 
-        String str2 = str1;//обе переменные-ссылки указывают на одну строку.
-        System.out.println(str2);
-
-        String str3 = str1.replace("Java", "Python");//попробуем изменить состояние str1, заменив слово "Java" на “Python”
-        System.out.println(str3);
+        Customer john = new Customer("John P.", 15);
+        Customer sarah = new Customer("Sarah M.", 200);
+        Customer charles = new Customer("Charles B.", 150);
+        Customer mary = new Customer("Mary T.", 1);
+        List<Customer> customers = Arrays.asList(john, sarah, charles, mary);
+        List<Customer> customersWithMoreThan100Points = customers
+            .stream()
+            .filter(c -> c.getPoints() > 100)
+            .collect(Collectors.toList());
+        customersWithMoreThan100Points.stream().forEach(element -> System.out.println(element));
     }
 }
