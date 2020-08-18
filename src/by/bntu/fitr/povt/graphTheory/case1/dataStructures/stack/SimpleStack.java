@@ -1,4 +1,4 @@
-package by.bntu.fitr.povt.graphTheory.case1.dataStructures;
+package by.bntu.fitr.povt.graphTheory.case1.dataStructures.stack;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,6 @@
-package by.bntu.fitr.povt.graphTheory.case1.dataStructures;
+package by.bntu.fitr.povt.graphTheory.case1.dataStructures.stack;
+
+import by.bntu.fitr.povt.graphTheory.case1.dataStructures.queue.SimpleQueue;
 
 /**
  * @author Alexey Druzik on 01.06.2020
