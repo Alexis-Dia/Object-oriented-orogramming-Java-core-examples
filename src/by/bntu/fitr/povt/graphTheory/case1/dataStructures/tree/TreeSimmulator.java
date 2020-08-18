@@ -19,22 +19,6 @@ public class TreeSimmulator {
         System.out.println("Сумма дерева: " + sumWide(root));
     }
 
-    static class Tree {
-        int value;
-        Tree left;
-        Tree right;
-
-        public Tree(int value, Tree left, Tree right) {
-            this.value = value;
-            this.left = left;
-            this.right = right;
-        }
-
-        public Tree(int value) {
-            this.value = value;
-        }
-    }
-
     public static int sumRecursive(Tree root) {
         int summ = root.value;
 
