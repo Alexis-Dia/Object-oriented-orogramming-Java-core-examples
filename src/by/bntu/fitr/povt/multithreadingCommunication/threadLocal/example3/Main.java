@@ -7,9 +7,9 @@ package by.bntu.fitr.povt.multithreadingCommunication.threadLocal.example3;
 public class Main {
     public static void main(String[] args) throws InterruptedException {
 
-        SomeBuilder builder = new SomeBuilder();
-        new SomeBuilderDemo2(builder);
-        new SomeBuilderDemo2(builder);
+        BuilderWithThreadLocal builder = new BuilderWithThreadLocal();
+        new SomeBuilderDemo(builder);
+        new SomeBuilderDemo(builder);
 
     }
 }

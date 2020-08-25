@@ -3,8 +3,10 @@ package by.bntu.fitr.povt.multithreadingCommunication.threadLocal.example3;
 /**
  * @author Alexey Druzik on 25.08.2020
  */
-public class SomeBuilder {
+public class BuilderWithoutThreadLocal {
+
     private int counter;
+
     public void build() {
         System.out.println("Thread " + Thread.currentThread().getName() + " Build some structure...");
         counter++;
@@ -19,4 +21,5 @@ public class SomeBuilder {
     public int getCount() {
         return counter;
     }
+
 }
