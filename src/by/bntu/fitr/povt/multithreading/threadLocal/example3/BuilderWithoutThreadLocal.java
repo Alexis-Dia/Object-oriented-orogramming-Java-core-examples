@@ -1,18 +1,15 @@
-package by.bntu.fitr.povt.multithreadingCommunication.threadLocal.example3;
+package by.bntu.fitr.povt.multithreading.threadLocal.example3;
 
 /**
  * @author Alexey Druzik on 25.08.2020
  */
-public class BuilderWithThreadLocal {
+public class BuilderWithoutThreadLocal {
 
-    private ThreadLocal<Integer> counter = new ThreadLocal<Integer>();
+    private int counter;
 
     public void build() {
         System.out.println("Thread " + Thread.currentThread().getName() + " Build some structure...");
-        if (counter.get() == null)
-            counter.set(0);
-
-        counter.set(counter.get() + 1);
+        counter++;
         try {
             Thread.sleep(100);
         }
@@ -22,7 +19,7 @@ public class BuilderWithThreadLocal {
     }
 
     public int getCount() {
-        return counter.get();
+        return counter;
     }
 
 }

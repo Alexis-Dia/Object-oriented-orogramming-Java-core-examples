@@ -1,4 +1,4 @@
-package by.bntu.fitr.povt.multithreadingCommunication.threadLocal.example3;
+package by.bntu.fitr.povt.multithreading.threadLocal.example3;
 
 /**
  * @author Alexey Druzik on 25.08.2020

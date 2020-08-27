@@ -1,4 +1,4 @@
-package by.bntu.fitr.povt.multithreadingCommunication.threadLocal.example1;
+package by.bntu.fitr.povt.multithreading.threadLocal.example1;
 import java.text.SimpleDateFormat;
 /**
  * Для чего можно использовать ThreadLocal  в Java:

@@ -1,4 +1,4 @@
-package by.bntu.fitr.povt.multithreadingCommunication.waitAndNotify;
+package by.bntu.fitr.povt.multithreading.waitAndNotify;
 
 public class Message {
     // поле, с которым будут работать потоки через вызовы геттеров и сеттеров

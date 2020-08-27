@@ -1,4 +1,4 @@
-package by.bntu.fitr.povt.multithreadingCommunication.waitAndNotify;
+package by.bntu.fitr.povt.multithreading.waitAndNotify;
 
 public class WaitNotifyTest {
  
