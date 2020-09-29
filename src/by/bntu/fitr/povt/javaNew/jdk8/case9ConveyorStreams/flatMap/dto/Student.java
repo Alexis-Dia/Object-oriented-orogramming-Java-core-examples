@@ -1,4 +1,4 @@
-package by.bntu.fitr.povt.javaNew.jdk8.case9ConveyorStreams.flatMap;
+package by.bntu.fitr.povt.javaNew.jdk8.case9ConveyorStreams.flatMap.dto;
 
 import java.util.HashSet;
 import java.util.Set;
