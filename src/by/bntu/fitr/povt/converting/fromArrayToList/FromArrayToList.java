@@ -1,4 +1,4 @@
-package by.bntu.fitr.povt.javaNew.converting.fromArrayToList;
+package by.bntu.fitr.povt.converting.fromArrayToList;
 
 import java.util.Arrays;
 import java.util.List;

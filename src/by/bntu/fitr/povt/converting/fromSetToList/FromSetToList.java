@@ -1,4 +1,4 @@
-package by.bntu.fitr.povt.javaNew.converting.fromSetToList;
+package by.bntu.fitr.povt.converting.fromSetToList;
 
 import by.bntu.fitr.povt.javaNew.jdk8.case9ConveyorStreams.flatMap.dto.Student;
 
