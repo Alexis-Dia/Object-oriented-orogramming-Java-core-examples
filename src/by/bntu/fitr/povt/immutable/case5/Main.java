@@ -20,7 +20,7 @@ import static org.junit.Assert.assertTrue;
 public class Main {
 
     @Test
-    public void unmodifiableTest(){
+    public void unmodifiableListTest(){
         List<String> modifiable = new ArrayList<>();
         modifiable.add("1");
 
@@ -43,7 +43,7 @@ public class Main {
     }
 
     @Test
-    public void immutableTest(){
+    public void immutableListTest(){
         List<String> modifiable = new ArrayList<>();
         modifiable.add("1");
 
