@@ -11,6 +11,7 @@ import static org.junit.Assert.assertTrue;
 
 /**
  * @author Alexey Druzik on 10.11.2020
+ * https://habr.com/ru/company/piter/blog/470149/ (orig - https://nipafx.dev/immutable-collections-in-java#)
  * Difference between  Immutable collection and Unmodifiable collection:
  *     Unmodifiable collection(also calls Structually Modified) - Collections that do not support modification operations
  *         (such as add, remove and clear) are referred to as unmodifiable. Collections that are not unmodifiable are modifiable.

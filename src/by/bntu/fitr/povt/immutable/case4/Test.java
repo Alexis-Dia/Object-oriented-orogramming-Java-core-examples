@@ -7,6 +7,7 @@ import java.util.List;
 
 /**
  * @author Alexey Druzik on 04.11.2020
+ * https://habr.com/ru/company/piter/blog/470149/ (orig - https://nipafx.dev/immutable-collections-in-java#)
  */
 public class Test {
     public static void main(String[] args) {
