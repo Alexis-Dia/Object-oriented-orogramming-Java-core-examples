@@ -11,6 +11,8 @@ import static org.junit.Assert.assertTrue;
 
 /**
  * @author Alexey Druzik on 10.11.2020
+ * Pay attention at the describing List.of()-method - https://docs.oracle.com/javase/9/docs/api/java/util/List.html
+ * Pay attention at the describing List.of()-method - https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/List.html
  * https://habr.com/ru/company/piter/blog/470149/ (orig - https://nipafx.dev/immutable-collections-in-java#)
  * Difference between  Immutable collection and Unmodifiable collection:
  *     Unmodifiable collection(also calls Structually Modified) - Collections that do not support modification operations

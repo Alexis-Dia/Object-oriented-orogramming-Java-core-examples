@@ -7,6 +7,8 @@ import java.util.List;
 
 /**
  * @author Alexey Druzik on 04.11.2020
+ * Pay attention at the describing List.of()-method - https://docs.oracle.com/javase/9/docs/api/java/util/List.html
+ * Pay attention at the describing List.of()-method - https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/List.html
  * https://habr.com/ru/company/piter/blog/470149/ (orig - https://nipafx.dev/immutable-collections-in-java#)
  */
 public class Test {
