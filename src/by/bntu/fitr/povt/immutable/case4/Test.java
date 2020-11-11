@@ -18,7 +18,7 @@ public class Test {
         System.out.println(list);
 
         /*
-            Arrays.asList returns a mutable list, but you can't add or remove an element(not be structurally modified)
+            Arrays.asList returns a unmodifiable list, but you can't add or remove an element(not be structurally modified)
          */
         List<String> list2 = Arrays.asList("1", "2");
         list2.add("3");
