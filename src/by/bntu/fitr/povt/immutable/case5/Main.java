@@ -70,6 +70,12 @@ public class Main {
     @Test
     public void listOfTest(){
         List<Student> students = List.of(new Student("Joe", 31));
+
+        /* Тут показан пример, что т к List - интерфейс, то
+        нет смысла просто работать с List, поэтому в примерах везде оборачивают его в какой-нить ArrayList: */
+        List<Student> studentsList = new ArrayList<>(students);
+        System.out.println(studentsList);
+
         students.get(0).setAge(32);
         int age = students.get(0).getAge();
         assertEquals("should have the 32 years", 32, age);
