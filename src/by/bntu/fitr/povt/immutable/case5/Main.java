@@ -67,4 +67,12 @@ public class Main {
 
     }
 
+    @Test
+    public void listOfTest(){
+        List<Student> students = List.of(new Student("Joe", 31));
+        students.get(0).setAge(32);
+        int age = students.get(0).getAge();
+        assertEquals("should have the 32 years", 32, age);
+    }
+
 }
