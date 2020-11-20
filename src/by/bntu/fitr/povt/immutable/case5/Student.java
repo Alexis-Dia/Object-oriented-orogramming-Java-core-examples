@@ -3,7 +3,7 @@ package by.bntu.fitr.povt.immutable.case5;
 /**
  * @author Alexey Druzik on 10.11.2020
  */
-public class Student {
+public class Student implements Comparable<Student> {
     String name;
     Integer age;
 
@@ -34,5 +34,10 @@ public class Student {
             "name='" + name + '\'' +
             ", age=" + age +
             '}';
+    }
+
+    @Override
+    public int compareTo(Student o) {
+        return this.getAge() - o.getAge();
     }
 }
