@@ -15,6 +15,7 @@ public class Test {
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
         Collections.addAll(list, "values");
+        list.add("Some value");
         System.out.println(list);
 
         /*
