@@ -2,7 +2,7 @@ package by.bntu.fitr.povt.callbackTheoryBasic.example3;
 
 /**
  * @author Alexey Druzik on 18.12.2020
- * It's example with asynchronous callback
+ * It's example with asynchronous callback - https://www.geeksforgeeks.org/asynchronous-synchronous-callbacks-java/
  */
 public class Main {
     // Driver Program
