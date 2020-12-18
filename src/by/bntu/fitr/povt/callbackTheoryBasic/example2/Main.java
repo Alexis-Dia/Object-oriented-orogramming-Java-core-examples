@@ -2,6 +2,7 @@ package by.bntu.fitr.povt.callbackTheoryBasic.example2;
 
 /**
  * @author Alexey Druzik on 17.12.2020
+ * It's example with asynchronous callback
  */
 class Main {
     public static void main(String[] args) {
