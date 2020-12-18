@@ -15,7 +15,7 @@ class Divide {
             onResult.onError(new Exception("Divide by zero"));
             return;
         }
-        onResult.onSuccess(a/b);
+        onResult.onSuccess(a, b);
     }
     void setOnResult(OnResult onResult) {
         this.onResult = onResult;

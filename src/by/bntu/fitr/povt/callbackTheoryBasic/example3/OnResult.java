@@ -1,7 +1,7 @@
-package by.bntu.fitr.povt.callbackTheoryBasic.example2;
+package by.bntu.fitr.povt.callbackTheoryBasic.example3;
 
 /**
- * @author Alexey Druzik on 17.12.2020
+ * @author Alexey Druzik on 18.12.2020
  */
 interface OnResult {
 
