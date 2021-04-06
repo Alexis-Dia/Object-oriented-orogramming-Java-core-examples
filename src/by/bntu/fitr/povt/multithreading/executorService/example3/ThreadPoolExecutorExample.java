@@ -17,7 +17,7 @@ public class ThreadPoolExecutorExample {
         ThreadFactory threadFactory = Executors.defaultThreadFactory();
         //creating the ThreadPoolExecutor
         ThreadPoolExecutor executorPool = new ThreadPoolExecutor(
-            2,
+            4,
             4,
             10,
             TimeUnit.SECONDS,
