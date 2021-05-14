@@ -6,5 +6,5 @@ public class NCar extends DefaultCar {
     public void go() throws NullPointerException {
         System.out.println("go1");
         throw new NullPointerException();
-    };
+    }
 }
