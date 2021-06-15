@@ -19,8 +19,13 @@ public class Car {
         return isGasEngine;
     }
 
+
     @Override
     public String toString() {
         return name;
+    }
+
+    public static boolean returnTrue(Car car) {
+        return car.isFullDrive();
     }
 }

@@ -2,7 +2,7 @@ package by.bntu.fitr.povt.javaNew.jdk8.case6functionalInterfaces;
 
 @FunctionalInterface
 interface CheckCar{
-    public boolean test(Car car);
+    boolean test(Car car);
 
     default boolean test2(Car car) {
         return true;
