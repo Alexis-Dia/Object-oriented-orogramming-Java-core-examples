@@ -19,5 +19,40 @@ public class Test {
 
         System.out.println(list);
         System.out.println(result);
+
+
+        List<Man> people = new ArrayList<>();
+        List<Man> peopleResult = List.of(new Man(18), new Man(37), new Man(129))
+                .stream()
+                .peek(x -> x.setAge(x.getAge() + 1))
+                .collect(Collectors.toList());
+        Stream.of(1, 2, 3, 4)
+                .forEach(x -> list.add(x));
+
+        System.out.println(people);
+        System.out.println(peopleResult);
+    }
+}
+
+class Man {
+    public Man(int age) {
+        this.age = age;
+    }
+
+    int age;
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "Man{" +
+                "age=" + age +
+                '}';
     }
 }
