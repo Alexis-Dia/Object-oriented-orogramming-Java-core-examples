@@ -26,8 +26,6 @@ public class Test {
                 .stream()
                 .peek(x -> x.setAge(x.getAge() + 1))
                 .collect(Collectors.toList());
-        Stream.of(1, 2, 3, 4)
-                .forEach(x -> list.add(x));
 
         System.out.println(people);
         System.out.println(peopleResult);
