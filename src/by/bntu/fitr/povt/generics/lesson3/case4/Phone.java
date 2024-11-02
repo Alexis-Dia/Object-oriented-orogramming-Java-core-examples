@@ -12,4 +12,8 @@ public class Phone extends Product<Phone> {
         this.diagonal = diagonal;
     }
 
+    @Override
+    public int subCompare(Phone p) {
+        return 0;
+    }
 }

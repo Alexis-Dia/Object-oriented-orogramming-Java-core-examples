@@ -11,4 +11,9 @@ public class Camera extends Product<Camera> {
     public void setPixels(Integer pixels) {
         this.pixels = pixels;
     }
+
+    @Override
+    public int subCompare(Camera p) {
+        return 0;
+    }
 }

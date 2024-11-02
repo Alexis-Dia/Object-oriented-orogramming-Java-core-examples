@@ -44,14 +44,7 @@ public class Test {
 
         final Integer fi = 1;
         Integer fi2 = fi;
-
-        MyInteger mi1 = new MyInteger(1);
-        MyInteger mi2 = mi1;
-        System.out.println(mi2);
-
-        mi1 = new MyInteger(2);
-        System.out.println(mi2);
-        System.out.println(mi1);*/
+*/
 
         Formula formula1 = (a) ->  Integer.valueOf(a);
         Formula formula1_1 = (a) ->  a;

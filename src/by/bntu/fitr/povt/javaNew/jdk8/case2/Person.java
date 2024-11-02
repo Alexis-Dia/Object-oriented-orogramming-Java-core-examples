@@ -45,6 +45,4 @@ public class Person {
     public void setAddress(PersonAddress address) {
         this.address = Optional.of(address);
     }
-
-
 }

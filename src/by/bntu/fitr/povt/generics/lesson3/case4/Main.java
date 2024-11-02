@@ -8,12 +8,12 @@ public class Main {
         Camera camera2 = new Camera();
         Phone phone1 = new Phone();
         Phone phone2 = new Phone();
-        Product product1 = new Product();
-        Product product2 = new Product();
+        //Product product1 = new Product();
+        //Product product2 = new Product();
 
         camera1.compareTo(camera2);
-        product1.compareTo(product2);
-        camera1.compareTo(phone1);
+        //product1.compareTo(product2);
+        //camera1.compareTo(phone1);
 
     }
 }

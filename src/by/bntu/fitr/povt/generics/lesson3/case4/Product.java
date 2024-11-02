@@ -26,13 +26,14 @@ public abstract class Product<T> implements Comparable<T>{
 
     @Override
     public int compareTo(T o) {
-        if (this.price > o.getPrice()) {
+/*        if (this.price > o.getPrice()) {
             return 1;
         } else if (this.price < o.getPrice()) {
             return -1;
         } else {
             subCompare(o);
             return 0;
-        }
+        }*/
+        return 0;
     }
 }

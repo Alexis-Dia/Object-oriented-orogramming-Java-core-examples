@@ -24,8 +24,10 @@ public class Main {
         find(cameras1, new Camera());
 
         List<Camera> cameras2 = new ArrayList();
+/*
         find(cameras2, new Phone());
         find(cameras2, new Product());
+*/
 
         List<Product> products = new ArrayList();
         find(products, new Camera());
